@@ -80,5 +80,4 @@ if st.button("Click to Predict: "):
     st.success("✅Customer will buy the Insurance✅")
 
 
-# changes 1: dict
-# changes 2: model predict
+
