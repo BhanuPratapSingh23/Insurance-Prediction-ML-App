@@ -63,7 +63,7 @@ for index,col_name in enumerate(x.columns):
                              max_value = max_v)
   else:
     value=st.slidebar.number_input(f"Select value for {col_name}: ")
- all_ans.append(value)
+  all_ans.append(value)
 
 ud={j:all_ans[i] for i,j in enumerate(x.columns)}
 user_df = pd.DataFrame(ud,index = [1])
